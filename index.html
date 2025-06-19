@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Battle</title>
+    
+    <!-- ✅ Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- ✅ Optional: Dark mode toggle -->
+    <script>
+      tailwind.config = {
+        darkMode: 'class'
+      }
+    </script>
+  </head>
+ <body class="transition duration-300 bg-white text-black dark:bg-black dark:text-white">
+    <div id="root">
+      <h1 class="text-4xl font-bold text-center mt-20">🔥 Tailwind is finally visible!</h1>
+    </div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
