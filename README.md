@@ -19,4 +19,3 @@ This is my submission for the Frontend Battle Competition. Built with **React** 
 1. Clone the repo:
 ```bash
 git clone https://github.com/shreyasrivastava0101/frontend-battle-submission.git
-netlify https://6853f2c4ba9823837fb1298c--willowy-stardust-5ae3b0.netlify.app/
